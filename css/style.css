@@ -1,0 +1,133 @@
+/* Archivo para añadir nuestros estilos */
+
+body {
+    font-family: Helvetica, Arial; 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;/* definimos una tipografía por defecto */
+    margin: 0 auto; /* propiedad que centra la página */
+    /*max-width: 1000px; definimos un máximo de ancho para la página */
+}
+
+header {
+    margin-bottom: 1rem;
+}
+h1 {
+    font-size: 0;
+}
+
+.menu-1 {
+    background-color: #861f82;
+    padding: 0.3rem;
+    text-align: center;
+    color: white;
+    font: 13px 'Roboto', sans-serif;
+}
+
+.menu-2 {
+    background-color: lightgray;
+    padding: 0.5rem;
+    text-align: center;
+    color: black;
+    font: 11px 'Montserrat', sans-serif;
+    
+}
+
+h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font: 30px 'Roboto', sans-serif;
+    text-align: left;
+}
+
+h3 {
+    font: 20px 'Roboto', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.ingredients {
+    background-color: lightgray;
+    color: black;
+    font: 13px 'Montserrat', sans-serif;
+    padding-bottom: 13rem;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba (0, 0, 0, 0.3);
+}
+
+h4{
+    padding-top: 2rem;
+    padding-bottom: 1.3rem;
+    font: 22px 'Montserrat', sans-serif;
+    color: black;
+}
+
+.text-1 {
+    text-align: left;
+    font: 16px 'Roboto', sans-serif;
+    color: black;
+    padding-bottom: 5rem;
+}
+
+.paella {
+    padding-left: 1.2rem;
+}
+
+footer {
+    text-align: center;
+    font: 12px 'Roboto', sans-serif;
+    padding: 2rem;
+}
+
+.bottom-menu {
+    border-top: solid;
+    border-color: #861f82;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+aside {
+    padding: 1rem;
+}
+
+li {
+    padding-bottom: 1rem;
+}
+
+input {
+    width: 20%;
+}
+
+.fa-leaf, .fa-pepper-hot, .fa-fish, .fa-drumstick-bite {
+    margin-right: 0.5rem;
+}
+
+.social-media {
+    float: right;
+    padding-top: 1.6rem;
+}
+
+.word-menu {
+    padding: 1rem;
+}
+
+.input {
+   margin-top: 0.7rem;
+}
+
+a.active {
+    color: yellow;
+}
+.serves {
+    padding-top: 1.2rem;
+}

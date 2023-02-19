@@ -1,0 +1,22 @@
+/* Media Queries */
+
+
+/* versión móviles */
+@media screen and (max-width:765px) {
+    .col-1-5, .col-1-7, .col-1-2, .col-1-4, .col-1-3, .col-2-3 {width: 100%}
+    h2 {text-align: center; font: 26px 'Roboto', sans-serif;}
+    h4 {padding-bottom: 0rem;}
+    .ingredients {padding-bottom: 1.5rem;}
+    header {display: inline;}
+    .social-media {float: left; padding-bottom: 1rem;}
+    header img {margin: 0 auto; width:  120px; margin-top: 1rem; margin-bottom: 1rem;}
+    aside {text-align: center; margin-bottom: 1rem;}
+    a {margin-bottom: 0.7rem;}
+    .menu-2 {margin-top: 0.3rem; font: 15px 'Montserrat', sans-serif;}
+    input {width: 100%}
+    .paella {padding-left: 0rem; padding: 0.5rem;}
+    .bottom-menu {margin-top: 2rem; padding-top: 2rem;}
+    .serves {padding-top: 0rem; padding-bottom: 1rem;}
+   
+
+}
